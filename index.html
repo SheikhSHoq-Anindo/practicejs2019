@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+    <head>
+        <title>
+            this is my first try @ jscript
+        </title>
+        <link rel= "stylesheet" type ="text/css" href="css@001.css">
+        <script src="js@001.js"></script>
+        
+        
+    </head>
+    <body>
+        <center>
+        <div id="test">
+            <div id = "keypad">
+                <div class="key"><img class="key_Neut" id="k1" src="asset/img/key_Neut.png" alt="" onclick= "changeElement ('k1')"><br>1</div>
+                <div class="key"><img class="key_Neut" id="k2" src="asset/img/key_Neut.png" alt="" onclick= "changeElement ('k2')"><br>2</div>
+                <div class="key"><img class="key_Neut" id="k3" src="asset/img/key_Neut.png" alt="" onclick= "changeElement ('k3')"><br>3</div>
+                <div class="key"><img class="key_Neut" id="k4" src="asset/img/key_Neut.png" alt="" onclick= "changeElement ('k4')"><br>4</div>
+                <div class="key"><img class="key_Neut" id="k5" src="asset/img/key_Neut.png" alt="" onclick= "changeElement ('k5')"><br>5</div>
+                <div class="key"><img class="key_Neut" id="k6" src="asset/img/key_Neut.png" alt="" onclick= "changeElement ('k6')"><br>6</div>
+                <div class="key"><img class="key_Neut" id="k7" src="asset/img/key_Neut.png" alt="" onclick= "changeElement ('k7')"><br>7</div>
+                <div class="key"><img class="key_Neut" id="k8" src="asset/img/key_Neut.png" alt="" onclick= "changeElement ('k8')"><br>8</div>
+                <div class="key"><img class="key_Neut" id="k9" src="asset/img/key_Neut.png" alt="" onclick= "changeElement ('k9')"><br>9</div>
+                <div class="key"><img class="key_Neut" id="kC" src="asset/img/key_Neut.png" alt="" onclick= "changeElement ('kC')"><br>del</div>
+                <div class="key"><img class="key_Neut" id="k0" src="asset/img/key_Neut.png" alt="" onclick= "changeElement ('k0')"><br>0</div>
+                <div class="key"><img class="key_Neut" id="kR" src="asset/img/key_Neut.png" alt="" onclick= "changeElement ('kR')"><br>res</div>
+            </div>
+            <div id="output">
+                <div class="disp" id="dsp01">
+                    <img id="disp01Frame" src="asset/img/dsp01Frame.png">
+                    
+                </div>
+                <div class="disp" id="dsp02bg">
+                    <center>
+                        <div id="dsp02Frame">
+                            <center>
+                                <div id="dsp02"></div>
+                            </center>
+                        </div>
+                    </center>
+                </div>
+            </div>
+
+        </div>
+        
+        </center>
+        <div id="log">
+            <p>key pressed: <span id="demo1"> </span> </p>
+            <p>key code input: <span id="demo2"> </span></p>
+            <p>count: <span id="demo3"> </span></p>
+            <p>log 1: <span id="demo4"> </span></p>
+            <p>log 2: <span id="demo5"> </span></p>
+            <p>log 3: <span id="demo6"> </span></p>
+
+
+        </div>        
+        <button onclick="toggleLog()">LOG</button>
+        
+        <audio loop="loop" id ="unrecommended" src="asset/audio/unrecommended_alarm.mp3" type="audio/mpeg"></audio>
+        <audio loop="loop" id ="contamination" src="asset/audio/contamination_alarm.mp3" type="audio/mpeg"></audio>
+        <audio loop="loop" id ="pneumatic" src="asset/audio/pneumatic_alarm.mp3" type="audio/mpeg"></audio>
+        <audio loop="loop" id ="link" src="asset/audio/link_alarm.mp3" type="audio/mpeg"></audio>
+        <audio loop="loop" id ="evac" src="asset/audio/evac_alarm.mp3" type="audio/mpeg"></audio>
+        <audio id ="dsp01death" src="asset/audio/dsp01_dying.mp3" type="audio/mpeg"></audio>
+        <audio id ="hiss" src="asset/audio/pneumatic_losing.mp3" type="audio/mpeg"></audio>
+        
+    </body>
+</html>

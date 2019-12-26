@@ -1,0 +1,137 @@
+@font-face{
+    font-family: console;
+    src: url(asset/font/LEDCalculator.ttf);
+}
+@font-face{
+    font-family: key_print;
+    src: url(asset/font/PlaneCrash.ttf)
+}
+
+body {
+    margin: 0%;
+    margin-top: 45px;
+    padding: 0px;
+    background-image: url(asset/img/wall.png);
+    background-position: center;
+    background-size:cover;
+}
+
+#log {
+    font-family: monospace;
+    font-size: 12px;
+    color: yellow;
+    visibility: visible ;
+}
+
+p {
+margin: 0px;
+ }
+
+button{
+    float:right;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    width: 40px;
+    opacity: 0%;
+    right: 0px;
+    bottom:0px;
+}
+button:hover{
+    cursor: none;
+}
+
+
+
+#test {
+    height: 500px;
+    width: 1000px;
+    padding: 0;
+    background-image:url(asset/img/terminal.png) ;
+}
+
+#keypad {
+    float: left;
+    height: 80%;
+    width: 42.5%;
+    margin: 5%;
+    margin-right: 2.5%;
+   
+}
+
+#output{
+    float: left;
+    height: 80%;
+    width: 42.5%;
+    margin: 5%;
+    margin-left: 2.5%;
+}
+
+#dsp01{
+    float: left;
+    height: 300px;
+    width: 100%;
+    background-image: url(asset/gif/terminal_idle.gif);
+    background-position: center;
+    background-size:101% ;
+}
+
+#disp01Frame{
+    float: left;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+}
+
+#dsp02bg{
+    float: left;
+    height: 100px;
+    width: 100%;
+    padding:0;
+    background-image: url(asset/img/dsp2BgOff.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+#dsp02Frame{
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(asset/img/dsp02Frame.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+#dsp02{
+    height: 68px;
+    width: 90.5%;
+    margin-top:17px;
+    font-family: console;
+    font-size: 30px;
+    text-align: left;
+    text-overflow: clip;
+    text-shadow: 2px 2px darkslategrey;
+    overflow: hidden;
+    
+}
+
+.key {
+    float: left;
+    height: 25%;
+    width: 33.3333%;
+    font-family: key_print;
+    color:gray;
+    font-size: 13px;
+    text-shadow:1px 1px black;
+    word-spacing: 0px;
+    
+    }
+
+.key_Neut{
+    overflow: hidden;
+    height: 80%;
+    width: 100%;
+    }
+
