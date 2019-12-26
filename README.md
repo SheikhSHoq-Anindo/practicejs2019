@@ -6,4 +6,4 @@ This is my first attempt at writing jscript file and I am no coder nor computer 
 So despite its really nothing and useless, I feel very proud that a person of my calbre actually pulled this off.
 If you find any glitches or bugs let me know, and if you know any improvement of any kind that can be done over this, let me know as well.
 Wish me luck.
-Thank you if you have visited the page.
+Thank you if you have visited the page. 
